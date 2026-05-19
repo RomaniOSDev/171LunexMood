@@ -3,33 +3,123 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3003F1F02FBC44BC0058EE20 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 3003F1C62FBC44BC0058EE20 /* privacy_policy.md */; };
+		3003F1F12FBC44BC0058EE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3003F1E62FBC44BC0058EE20 /* Assets.xcassets */; };
+		3003F1F32FBC44BC0058EE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3003F1EA2FBC44BC0058EE20 /* LaunchScreen.storyboard */; };
+		3003F1F42FBC44BC0058EE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3003F1EC2FBC44BC0058EE20 /* Main.storyboard */; };
+		3003F1F52FBC44BC0058EE20 /* SkyboundStrideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1A02FBC44BC0058EE20 /* SkyboundStrideView.swift */; };
+		3003F1F62FBC44BC0058EE20 /* SkyboundStrideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1A12FBC44BC0058EE20 /* SkyboundStrideViewModel.swift */; };
+		3003F1F72FBC44BC0058EE20 /* SkySurgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1A32FBC44BC0058EE20 /* SkySurgeView.swift */; };
+		3003F1F82FBC44BC0058EE20 /* SkySurgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1A42FBC44BC0058EE20 /* SkySurgeViewModel.swift */; };
+		3003F1F92FBC44BC0058EE20 /* TowerLeapRushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1A62FBC44BC0058EE20 /* TowerLeapRushView.swift */; };
+		3003F1FA2FBC44BC0058EE20 /* TowerLeapRushViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1A72FBC44BC0058EE20 /* TowerLeapRushViewModel.swift */; };
+		3003F1FB2FBC44BC0058EE20 /* StarSprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1A92FBC44BC0058EE20 /* StarSprintView.swift */; };
+		3003F1FC2FBC44BC0058EE20 /* StarSprintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1AA2FBC44BC0058EE20 /* StarSprintViewModel.swift */; };
+		3003F1FD2FBC44BC0058EE20 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1AD2FBC44BC0058EE20 /* Color+App.swift */; };
+		3003F1FE2FBC44BC0058EE20 /* GameLaneLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1AF2FBC44BC0058EE20 /* GameLaneLayout.swift */; };
+		3003F1FF2FBC44BC0058EE20 /* PlayTimeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B02FBC44BC0058EE20 /* PlayTimeTracker.swift */; };
+		3003F2002FBC44BC0058EE20 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B22FBC44BC0058EE20 /* AppExternalLink.swift */; };
+		3003F2012FBC44BC0058EE20 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B42FBC44BC0058EE20 /* Achievement.swift */; };
+		3003F2022FBC44BC0058EE20 /* ActivityDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B52FBC44BC0058EE20 /* ActivityDefinition.swift */; };
+		3003F2032FBC44BC0058EE20 /* ActivityTutorialContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B62FBC44BC0058EE20 /* ActivityTutorialContent.swift */; };
+		3003F2042FBC44BC0058EE20 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B72FBC44BC0058EE20 /* Difficulty.swift */; };
+		3003F2052FBC44BC0058EE20 /* GameSessionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B82FBC44BC0058EE20 /* GameSessionContext.swift */; };
+		3003F2062FBC44BC0058EE20 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1B92FBC44BC0058EE20 /* HomeModels.swift */; };
+		3003F2072FBC44BC0058EE20 /* WeeklyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1BA2FBC44BC0058EE20 /* WeeklyChallenge.swift */; };
+		3003F2082FBC44BC0058EE20 /* Notification+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1BC2FBC44BC0058EE20 /* Notification+Progress.swift */; };
+		3003F2092FBC44BC0058EE20 /* AppStoreActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1BE2FBC44BC0058EE20 /* AppStoreActions.swift */; };
+		3003F20A2FBC44BC0058EE20 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1BF2FBC44BC0058EE20 /* HapticService.swift */; };
+		3003F20B2FBC44BC0058EE20 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1C02FBC44BC0058EE20 /* SoundService.swift */; };
+		3003F20C2FBC44BC0058EE20 /* AppAppearanceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1C22FBC44BC0058EE20 /* AppAppearanceConfigurator.swift */; };
+		3003F20D2FBC44BC0058EE20 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1C42FBC44BC0058EE20 /* AppStorage.swift */; };
+		3003F20E2FBC44BC0058EE20 /* AppCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1C82FBC44BC0058EE20 /* AppCells.swift */; };
+		3003F20F2FBC44BC0058EE20 /* AppDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1CA2FBC44BC0058EE20 /* AppDesign.swift */; };
+		3003F2102FBC44BC0058EE20 /* AppVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1CB2FBC44BC0058EE20 /* AppVisualStyle.swift */; };
+		3003F2112FBC44BC0058EE20 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1CD2FBC44BC0058EE20 /* HomeWidgets.swift */; };
+		3003F2122FBC44BC0058EE20 /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1CF2FBC44BC0058EE20 /* AppBackgroundView.swift */; };
+		3003F2132FBC44BC0058EE20 /* GameEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D02FBC44BC0058EE20 /* GameEntryView.swift */; };
+		3003F2142FBC44BC0058EE20 /* GamePauseOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D12FBC44BC0058EE20 /* GamePauseOverlay.swift */; };
+		3003F2152FBC44BC0058EE20 /* GameResultOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D22FBC44BC0058EE20 /* GameResultOverlay.swift */; };
+		3003F2162FBC44BC0058EE20 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D32FBC44BC0058EE20 /* PrimaryButton.swift */; };
+		3003F2172FBC44BC0058EE20 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D42FBC44BC0058EE20 /* StarRatingView.swift */; };
+		3003F2182FBC44BC0058EE20 /* LevelSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D62FBC44BC0058EE20 /* LevelSelectionView.swift */; };
+		3003F2192FBC44BC0058EE20 /* AchievementsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D82FBC44BC0058EE20 /* AchievementsTabView.swift */; };
+		3003F21A2FBC44BC0058EE20 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1D92FBC44BC0058EE20 /* HomeView.swift */; };
+		3003F21B2FBC44BC0058EE20 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1DA2FBC44BC0058EE20 /* MainTabView.swift */; };
+		3003F21C2FBC44BC0058EE20 /* PlayTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1DB2FBC44BC0058EE20 /* PlayTabView.swift */; };
+		3003F21D2FBC44BC0058EE20 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1DC2FBC44BC0058EE20 /* SettingsTabView.swift */; };
+		3003F21E2FBC44BC0058EE20 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1DE2FBC44BC0058EE20 /* OnboardingView.swift */; };
+		3003F21F2FBC44BC0058EE20 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1E02FBC44BC0058EE20 /* PrivacyPolicyView.swift */; };
+		3003F2202FBC44BC0058EE20 /* ActivityTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1E22FBC44BC0058EE20 /* ActivityTutorialView.swift */; };
+		3003F2212FBC44BC0058EE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1E52FBC44BC0058EE20 /* AppDelegate.swift */; };
+		3003F2222FBC44BC0058EE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1E72FBC44BC0058EE20 /* ContentView.swift */; };
+		3003F2232FBC44BC0058EE20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1ED2FBC44BC0058EE20 /* SceneDelegate.swift */; };
+		3003F2242FBC44BC0058EE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F1EE2FBC44BC0058EE20 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		3003F1A02FBC44BC0058EE20 /* SkyboundStrideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyboundStrideView.swift; sourceTree = "<group>"; };
+		3003F1A12FBC44BC0058EE20 /* SkyboundStrideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyboundStrideViewModel.swift; sourceTree = "<group>"; };
+		3003F1A32FBC44BC0058EE20 /* SkySurgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkySurgeView.swift; sourceTree = "<group>"; };
+		3003F1A42FBC44BC0058EE20 /* SkySurgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkySurgeViewModel.swift; sourceTree = "<group>"; };
+		3003F1A62FBC44BC0058EE20 /* TowerLeapRushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerLeapRushView.swift; sourceTree = "<group>"; };
+		3003F1A72FBC44BC0058EE20 /* TowerLeapRushViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerLeapRushViewModel.swift; sourceTree = "<group>"; };
+		3003F1A92FBC44BC0058EE20 /* StarSprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSprintView.swift; sourceTree = "<group>"; };
+		3003F1AA2FBC44BC0058EE20 /* StarSprintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSprintViewModel.swift; sourceTree = "<group>"; };
+		3003F1AD2FBC44BC0058EE20 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		3003F1AF2FBC44BC0058EE20 /* GameLaneLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLaneLayout.swift; sourceTree = "<group>"; };
+		3003F1B02FBC44BC0058EE20 /* PlayTimeTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTimeTracker.swift; sourceTree = "<group>"; };
+		3003F1B22FBC44BC0058EE20 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		3003F1B42FBC44BC0058EE20 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		3003F1B52FBC44BC0058EE20 /* ActivityDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDefinition.swift; sourceTree = "<group>"; };
+		3003F1B62FBC44BC0058EE20 /* ActivityTutorialContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTutorialContent.swift; sourceTree = "<group>"; };
+		3003F1B72FBC44BC0058EE20 /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+		3003F1B82FBC44BC0058EE20 /* GameSessionContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionContext.swift; sourceTree = "<group>"; };
+		3003F1B92FBC44BC0058EE20 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		3003F1BA2FBC44BC0058EE20 /* WeeklyChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallenge.swift; sourceTree = "<group>"; };
+		3003F1BC2FBC44BC0058EE20 /* Notification+Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Progress.swift"; sourceTree = "<group>"; };
+		3003F1BE2FBC44BC0058EE20 /* AppStoreActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreActions.swift; sourceTree = "<group>"; };
+		3003F1BF2FBC44BC0058EE20 /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
+		3003F1C02FBC44BC0058EE20 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		3003F1C22FBC44BC0058EE20 /* AppAppearanceConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearanceConfigurator.swift; sourceTree = "<group>"; };
+		3003F1C42FBC44BC0058EE20 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		3003F1C62FBC44BC0058EE20 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		3003F1C82FBC44BC0058EE20 /* AppCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCells.swift; sourceTree = "<group>"; };
+		3003F1CA2FBC44BC0058EE20 /* AppDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDesign.swift; sourceTree = "<group>"; };
+		3003F1CB2FBC44BC0058EE20 /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
+		3003F1CD2FBC44BC0058EE20 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		3003F1CF2FBC44BC0058EE20 /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		3003F1D02FBC44BC0058EE20 /* GameEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntryView.swift; sourceTree = "<group>"; };
+		3003F1D12FBC44BC0058EE20 /* GamePauseOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseOverlay.swift; sourceTree = "<group>"; };
+		3003F1D22FBC44BC0058EE20 /* GameResultOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultOverlay.swift; sourceTree = "<group>"; };
+		3003F1D32FBC44BC0058EE20 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		3003F1D42FBC44BC0058EE20 /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		3003F1D62FBC44BC0058EE20 /* LevelSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionView.swift; sourceTree = "<group>"; };
+		3003F1D82FBC44BC0058EE20 /* AchievementsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTabView.swift; sourceTree = "<group>"; };
+		3003F1D92FBC44BC0058EE20 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3003F1DA2FBC44BC0058EE20 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3003F1DB2FBC44BC0058EE20 /* PlayTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTabView.swift; sourceTree = "<group>"; };
+		3003F1DC2FBC44BC0058EE20 /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		3003F1DE2FBC44BC0058EE20 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3003F1E02FBC44BC0058EE20 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		3003F1E22FBC44BC0058EE20 /* ActivityTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTutorialView.swift; sourceTree = "<group>"; };
+		3003F1E52FBC44BC0058EE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3003F1E62FBC44BC0058EE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3003F1E72FBC44BC0058EE20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3003F1E82FBC44BC0058EE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3003F1E92FBC44BC0058EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3003F1EB2FBC44BC0058EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3003F1ED2FBC44BC0058EE20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3003F1EE2FBC44BC0058EE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30121F602FBB94280071B4BB /* 171LunexMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 171LunexMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F57BE0DF83E37BFF77699B /* Pods-171LunexMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-171LunexMood.release.xcconfig"; path = "Target Support Files/Pods-171LunexMood/Pods-171LunexMood.release.xcconfig"; sourceTree = "<group>"; };
+		F04CE5ED0FA97F59DE86B715 /* Pods-171LunexMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-171LunexMood.debug.xcconfig"; path = "Target Support Files/Pods-171LunexMood/Pods-171LunexMood.debug.xcconfig"; sourceTree = "<group>"; };
+		F0E431D3897E08053B6E3A14 /* Pods_171LunexMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_171LunexMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30121F722FBB942A0071B4BB /* Exceptions for "171LunexMood" folder in "171LunexMood" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30121F5F2FBB94280071B4BB /* 171LunexMood */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30121F622FBB94280071B4BB /* 171LunexMood */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30121F722FBB942A0071B4BB /* Exceptions for "171LunexMood" folder in "171LunexMood" target */,
-			);
-			path = 171LunexMood;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30121F5D2FBB94280071B4BB /* Frameworks */ = {
@@ -42,11 +132,265 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3003F1A22FBC44BC0058EE20 /* Activity1 */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1A02FBC44BC0058EE20 /* SkyboundStrideView.swift */,
+				3003F1A12FBC44BC0058EE20 /* SkyboundStrideViewModel.swift */,
+			);
+			path = Activity1;
+			sourceTree = "<group>";
+		};
+		3003F1A52FBC44BC0058EE20 /* Activity2 */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1A32FBC44BC0058EE20 /* SkySurgeView.swift */,
+				3003F1A42FBC44BC0058EE20 /* SkySurgeViewModel.swift */,
+			);
+			path = Activity2;
+			sourceTree = "<group>";
+		};
+		3003F1A82FBC44BC0058EE20 /* Activity3 */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1A62FBC44BC0058EE20 /* TowerLeapRushView.swift */,
+				3003F1A72FBC44BC0058EE20 /* TowerLeapRushViewModel.swift */,
+			);
+			path = Activity3;
+			sourceTree = "<group>";
+		};
+		3003F1AB2FBC44BC0058EE20 /* Activity4 */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1A92FBC44BC0058EE20 /* StarSprintView.swift */,
+				3003F1AA2FBC44BC0058EE20 /* StarSprintViewModel.swift */,
+			);
+			path = Activity4;
+			sourceTree = "<group>";
+		};
+		3003F1AC2FBC44BC0058EE20 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1A22FBC44BC0058EE20 /* Activity1 */,
+				3003F1A52FBC44BC0058EE20 /* Activity2 */,
+				3003F1A82FBC44BC0058EE20 /* Activity3 */,
+				3003F1AB2FBC44BC0058EE20 /* Activity4 */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		3003F1AE2FBC44BC0058EE20 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1AD2FBC44BC0058EE20 /* Color+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3003F1B12FBC44BC0058EE20 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1AF2FBC44BC0058EE20 /* GameLaneLayout.swift */,
+				3003F1B02FBC44BC0058EE20 /* PlayTimeTracker.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		3003F1B32FBC44BC0058EE20 /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1B22FBC44BC0058EE20 /* AppExternalLink.swift */,
+			);
+			path = Links;
+			sourceTree = "<group>";
+		};
+		3003F1BB2FBC44BC0058EE20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1B42FBC44BC0058EE20 /* Achievement.swift */,
+				3003F1B52FBC44BC0058EE20 /* ActivityDefinition.swift */,
+				3003F1B62FBC44BC0058EE20 /* ActivityTutorialContent.swift */,
+				3003F1B72FBC44BC0058EE20 /* Difficulty.swift */,
+				3003F1B82FBC44BC0058EE20 /* GameSessionContext.swift */,
+				3003F1B92FBC44BC0058EE20 /* HomeModels.swift */,
+				3003F1BA2FBC44BC0058EE20 /* WeeklyChallenge.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3003F1BD2FBC44BC0058EE20 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1BC2FBC44BC0058EE20 /* Notification+Progress.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		3003F1C12FBC44BC0058EE20 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1BE2FBC44BC0058EE20 /* AppStoreActions.swift */,
+				3003F1BF2FBC44BC0058EE20 /* HapticService.swift */,
+				3003F1C02FBC44BC0058EE20 /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3003F1C32FBC44BC0058EE20 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1C22FBC44BC0058EE20 /* AppAppearanceConfigurator.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3003F1C52FBC44BC0058EE20 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1AE2FBC44BC0058EE20 /* Extensions */,
+				3003F1B12FBC44BC0058EE20 /* Game */,
+				3003F1B32FBC44BC0058EE20 /* Links */,
+				3003F1BB2FBC44BC0058EE20 /* Models */,
+				3003F1BD2FBC44BC0058EE20 /* Notifications */,
+				3003F1C12FBC44BC0058EE20 /* Services */,
+				3003F1C32FBC44BC0058EE20 /* UI */,
+				3003F1C42FBC44BC0058EE20 /* AppStorage.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3003F1C72FBC44BC0058EE20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1C62FBC44BC0058EE20 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3003F1C92FBC44BC0058EE20 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1C82FBC44BC0058EE20 /* AppCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3003F1CC2FBC44BC0058EE20 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1CA2FBC44BC0058EE20 /* AppDesign.swift */,
+				3003F1CB2FBC44BC0058EE20 /* AppVisualStyle.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3003F1CE2FBC44BC0058EE20 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1CD2FBC44BC0058EE20 /* HomeWidgets.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		3003F1D52FBC44BC0058EE20 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1C92FBC44BC0058EE20 /* Cells */,
+				3003F1CC2FBC44BC0058EE20 /* Design */,
+				3003F1CE2FBC44BC0058EE20 /* Widgets */,
+				3003F1CF2FBC44BC0058EE20 /* AppBackgroundView.swift */,
+				3003F1D02FBC44BC0058EE20 /* GameEntryView.swift */,
+				3003F1D12FBC44BC0058EE20 /* GamePauseOverlay.swift */,
+				3003F1D22FBC44BC0058EE20 /* GameResultOverlay.swift */,
+				3003F1D32FBC44BC0058EE20 /* PrimaryButton.swift */,
+				3003F1D42FBC44BC0058EE20 /* StarRatingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3003F1D72FBC44BC0058EE20 /* LevelSelection */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1D62FBC44BC0058EE20 /* LevelSelectionView.swift */,
+			);
+			path = LevelSelection;
+			sourceTree = "<group>";
+		};
+		3003F1DD2FBC44BC0058EE20 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1D82FBC44BC0058EE20 /* AchievementsTabView.swift */,
+				3003F1D92FBC44BC0058EE20 /* HomeView.swift */,
+				3003F1DA2FBC44BC0058EE20 /* MainTabView.swift */,
+				3003F1DB2FBC44BC0058EE20 /* PlayTabView.swift */,
+				3003F1DC2FBC44BC0058EE20 /* SettingsTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3003F1DF2FBC44BC0058EE20 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1DE2FBC44BC0058EE20 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3003F1E12FBC44BC0058EE20 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1E02FBC44BC0058EE20 /* PrivacyPolicyView.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		3003F1E32FBC44BC0058EE20 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1E22FBC44BC0058EE20 /* ActivityTutorialView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		3003F1E42FBC44BC0058EE20 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1D52FBC44BC0058EE20 /* Components */,
+				3003F1D72FBC44BC0058EE20 /* LevelSelection */,
+				3003F1DD2FBC44BC0058EE20 /* Main */,
+				3003F1DF2FBC44BC0058EE20 /* Onboarding */,
+				3003F1E12FBC44BC0058EE20 /* Privacy */,
+				3003F1E32FBC44BC0058EE20 /* Tutorial */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3003F1EF2FBC44BC0058EE20 /* 171LunexMood */ = {
+			isa = PBXGroup;
+			children = (
+				3003F1AC2FBC44BC0058EE20 /* Activities */,
+				3003F1C52FBC44BC0058EE20 /* Core */,
+				3003F1C72FBC44BC0058EE20 /* Resources */,
+				3003F1E42FBC44BC0058EE20 /* UI */,
+				3003F1E52FBC44BC0058EE20 /* AppDelegate.swift */,
+				3003F1E62FBC44BC0058EE20 /* Assets.xcassets */,
+				3003F1E72FBC44BC0058EE20 /* ContentView.swift */,
+				3003F1E82FBC44BC0058EE20 /* Info.plist */,
+				3003F1EA2FBC44BC0058EE20 /* LaunchScreen.storyboard */,
+				3003F1EC2FBC44BC0058EE20 /* Main.storyboard */,
+				3003F1ED2FBC44BC0058EE20 /* SceneDelegate.swift */,
+				3003F1EE2FBC44BC0058EE20 /* ViewController.swift */,
+			);
+			path = 171LunexMood;
+			sourceTree = "<group>";
+		};
 		30121F572FBB94270071B4BB = {
 			isa = PBXGroup;
 			children = (
-				30121F622FBB94280071B4BB /* 171LunexMood */,
+				3003F1EF2FBC44BC0058EE20 /* 171LunexMood */,
 				30121F612FBB94280071B4BB /* Products */,
+				9B5604591F33DA5AEE8B84E6 /* Pods */,
+				D266CB92BBBF739FA7518AFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +402,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9B5604591F33DA5AEE8B84E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F04CE5ED0FA97F59DE86B715 /* Pods-171LunexMood.debug.xcconfig */,
+				D9F57BE0DF83E37BFF77699B /* Pods-171LunexMood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D266CB92BBBF739FA7518AFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E431D3897E08053B6E3A14 /* Pods_171LunexMood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +426,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30121F732FBB942A0071B4BB /* Build configuration list for PBXNativeTarget "171LunexMood" */;
 			buildPhases = (
+				F65B823749E1E3F6A68CE8AC /* [CP] Check Pods Manifest.lock */,
 				30121F5C2FBB94280071B4BB /* Sources */,
 				30121F5D2FBB94280071B4BB /* Frameworks */,
 				30121F5E2FBB94280071B4BB /* Resources */,
@@ -73,12 +435,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30121F622FBB94280071B4BB /* 171LunexMood */,
-			);
 			name = 171LunexMood;
-			packageProductDependencies = (
-			);
 			productName = 171LunexMood;
 			productReference = 30121F602FBB94280071B4BB /* 171LunexMood.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +456,7 @@
 				};
 			};
 			buildConfigurationList = 30121F5B2FBB94270071B4BB /* Build configuration list for PBXProject "171LunexMood" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +464,6 @@
 				Base,
 			);
 			mainGroup = 30121F572FBB94270071B4BB;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30121F612FBB94280071B4BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,81 +478,199 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3003F1F02FBC44BC0058EE20 /* privacy_policy.md in Resources */,
+				3003F1F12FBC44BC0058EE20 /* Assets.xcassets in Resources */,
+				3003F1F32FBC44BC0058EE20 /* LaunchScreen.storyboard in Resources */,
+				3003F1F42FBC44BC0058EE20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F65B823749E1E3F6A68CE8AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-171LunexMood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30121F5C2FBB94280071B4BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3003F1F52FBC44BC0058EE20 /* SkyboundStrideView.swift in Sources */,
+				3003F1F62FBC44BC0058EE20 /* SkyboundStrideViewModel.swift in Sources */,
+				3003F1F72FBC44BC0058EE20 /* SkySurgeView.swift in Sources */,
+				3003F1F82FBC44BC0058EE20 /* SkySurgeViewModel.swift in Sources */,
+				3003F1F92FBC44BC0058EE20 /* TowerLeapRushView.swift in Sources */,
+				3003F1FA2FBC44BC0058EE20 /* TowerLeapRushViewModel.swift in Sources */,
+				3003F1FB2FBC44BC0058EE20 /* StarSprintView.swift in Sources */,
+				3003F1FC2FBC44BC0058EE20 /* StarSprintViewModel.swift in Sources */,
+				3003F1FD2FBC44BC0058EE20 /* Color+App.swift in Sources */,
+				3003F1FE2FBC44BC0058EE20 /* GameLaneLayout.swift in Sources */,
+				3003F1FF2FBC44BC0058EE20 /* PlayTimeTracker.swift in Sources */,
+				3003F2002FBC44BC0058EE20 /* AppExternalLink.swift in Sources */,
+				3003F2012FBC44BC0058EE20 /* Achievement.swift in Sources */,
+				3003F2022FBC44BC0058EE20 /* ActivityDefinition.swift in Sources */,
+				3003F2032FBC44BC0058EE20 /* ActivityTutorialContent.swift in Sources */,
+				3003F2042FBC44BC0058EE20 /* Difficulty.swift in Sources */,
+				3003F2052FBC44BC0058EE20 /* GameSessionContext.swift in Sources */,
+				3003F2062FBC44BC0058EE20 /* HomeModels.swift in Sources */,
+				3003F2072FBC44BC0058EE20 /* WeeklyChallenge.swift in Sources */,
+				3003F2082FBC44BC0058EE20 /* Notification+Progress.swift in Sources */,
+				3003F2092FBC44BC0058EE20 /* AppStoreActions.swift in Sources */,
+				3003F20A2FBC44BC0058EE20 /* HapticService.swift in Sources */,
+				3003F20B2FBC44BC0058EE20 /* SoundService.swift in Sources */,
+				3003F20C2FBC44BC0058EE20 /* AppAppearanceConfigurator.swift in Sources */,
+				3003F20D2FBC44BC0058EE20 /* AppStorage.swift in Sources */,
+				3003F20E2FBC44BC0058EE20 /* AppCells.swift in Sources */,
+				3003F20F2FBC44BC0058EE20 /* AppDesign.swift in Sources */,
+				3003F2102FBC44BC0058EE20 /* AppVisualStyle.swift in Sources */,
+				3003F2112FBC44BC0058EE20 /* HomeWidgets.swift in Sources */,
+				3003F2122FBC44BC0058EE20 /* AppBackgroundView.swift in Sources */,
+				3003F2132FBC44BC0058EE20 /* GameEntryView.swift in Sources */,
+				3003F2142FBC44BC0058EE20 /* GamePauseOverlay.swift in Sources */,
+				3003F2152FBC44BC0058EE20 /* GameResultOverlay.swift in Sources */,
+				3003F2162FBC44BC0058EE20 /* PrimaryButton.swift in Sources */,
+				3003F2172FBC44BC0058EE20 /* StarRatingView.swift in Sources */,
+				3003F2182FBC44BC0058EE20 /* LevelSelectionView.swift in Sources */,
+				3003F2192FBC44BC0058EE20 /* AchievementsTabView.swift in Sources */,
+				3003F21A2FBC44BC0058EE20 /* HomeView.swift in Sources */,
+				3003F21B2FBC44BC0058EE20 /* MainTabView.swift in Sources */,
+				3003F21C2FBC44BC0058EE20 /* PlayTabView.swift in Sources */,
+				3003F21D2FBC44BC0058EE20 /* SettingsTabView.swift in Sources */,
+				3003F21E2FBC44BC0058EE20 /* OnboardingView.swift in Sources */,
+				3003F21F2FBC44BC0058EE20 /* PrivacyPolicyView.swift in Sources */,
+				3003F2202FBC44BC0058EE20 /* ActivityTutorialView.swift in Sources */,
+				3003F2212FBC44BC0058EE20 /* AppDelegate.swift in Sources */,
+				3003F2222FBC44BC0058EE20 /* ContentView.swift in Sources */,
+				3003F2232FBC44BC0058EE20 /* SceneDelegate.swift in Sources */,
+				3003F2242FBC44BC0058EE20 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		3003F1EA2FBC44BC0058EE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3003F1E92FBC44BC0058EE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3003F1EC2FBC44BC0058EE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3003F1EB2FBC44BC0058EE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30121F742FBB942A0071B4BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04CE5ED0FA97F59DE86B715 /* Pods-171LunexMood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 171LunexMood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunex Mood";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-71LunexMood";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiv.l8n3xm00d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30121F752FBB942A0071B4BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F57BE0DF83E37BFF77699B /* Pods-171LunexMood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 171LunexMood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunex Mood";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-71LunexMood";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiv.l8n3xm00d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
