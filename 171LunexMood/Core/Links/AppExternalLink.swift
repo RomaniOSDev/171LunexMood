@@ -1,8 +1,8 @@
 import Foundation
 
 enum AppExternalLink: String, CaseIterable {
-    case privacyPolicy = "https://lunexmood171.site/privacy/173"
-    case termsOfUse = "https://lunexmood171.site/terms/173"
+    case privacyPolicy = "https://luneexmood.com/privacy-policy.html"
+    case termsOfUse = "https://luneexmood.com/support.html"
 
     var url: URL? {
         URL(string: rawValue)
